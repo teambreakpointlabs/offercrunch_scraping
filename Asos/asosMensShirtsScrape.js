@@ -19,8 +19,8 @@ function getTelevisionOffers(){
     var productUrl, imageUrl, originalPrice, offerPrice, savings, screenSize, properties, brand, pctSavings = "";
     var retailer = 'asos';
     var category = 'fashion';
-    var productType = 'jeans';
-    var gender = 'm';
+    var productType = 'shirt';
+    var gender = 'men';
     var description = '';
     var urlDesc = '';
     var encodedProductUrl = '';
@@ -99,6 +99,8 @@ function getTelevisionOffers(){
        urlDesc = brand + '-' + productType + '-' + unique;
      }
 
+
+
     encodedProductUrl = encodeURIComponent(productUrl);
     // skimlinksUrl = 'http://go.redirectingat.com/?id=54354X1347041&site=www.specialoffershopper.co.uk&xs=1&isjs=1&url='+ encodedProductUrl + '&xguid=d1cbe13e65417e162e392fc0edcccb5f&xcreo=0&sref=http%3A%2F%2Fwww.specialoffershopper.co.uk&xtz=-660';
     skimlinksUrl = 'http://go.redirectingat.com/?id=54354X1506902&site=www.offercrunch.co.uk&xs=1&isjs=1&url='+ encodedProductUrl + '&xguid=a11734410a17086b1e3a57e4e942b244&xcreo=0&sref=http%3A%2F%2Fwww.offercrunch.co.uk&xtz=-60';
@@ -116,12 +118,13 @@ function getTelevisionOffers(){
 
 
 
-    var brands = ['Crosshatch','!Solid','A Question Of','American Apparel','Anerkjendt','Antony Morato','ASOS','Barbour','Bellfield','Ben Sherman','Blood Brother','Brave Soul','Carhartt','Cheap Monday','D-Struct','Ralph Lauren','Deus Ex Machina','Diesel','DKNY','DZ','Esprit','Farah Vintage','Firetrap','Fred Perry','Fred Perry Laurel Wreath','French Connection','G-Star','Gant Rugger','Henleys','Hilfiger Denim','Jack & Jones','Jack Wills','Joyrich','Kulte','Lacoste','Levis','Libertine Libertine','Love Moschino','Lyle & Scott','Merc','Minimum','Native Youth','New Look','Nudie Jeans','Penfield','Pepe','Ralph Lauren','Paul Smith','Pull&Bear','Quiksilver','Reclaimed','Reiss','Religion','Ringspun','River Island','Rock & Revival','Selected','Soulland','Superdry','Supreme Being','Ted Baker','The Kooples Sport','Tommy Hilfiger','Unconditional','Uniforms For The Dedicated','United Colors of Benetton','Vacant','VITO','Voi Jeans','Wolsey','Wood Wood','YMC'];
+    var brands = ['!Solid','10 Deep','55DSL','A Question Of','Addict','Afends','Altamont','Anerkjendt','Another Influence','Antony Morato','ASOS','Barbour','Bellfield','Ben Sherman','Blood Brother','Boxfresh','Brave Soul','Bucks & Co','Carhartt','Cheap Monday','Chocoolate','Christopher Shannon','D&G','D-Struct','Dansk','Ralph Lauren','Dickies','Diesel','DKNY','Eleven Paris','Esprit','Farah Vintage','Firetrap','Fjallraven','Franklin & Marshall','Fred Perry','French Connection','G-Star','Gant Rugger','Guide London','Hack','Hilfiger Denim','Insight','Izzue','J. Lindeberg','Jack & Jones','Jack Wills','Joyrich','Lacoste','Lambretta','Lazy Oaf','Levis','Libertine Libertine','Liberty','Love Moschino','Maharishi','Merc','MHI','Minimum','Native Youth','New Look','Nudie Jeans','Paul Smith','Pepe','Peter Werth','Ralph Lauren','Paul Smith','Pull&Bear','Quiksilver','Reclaimed Vintage','Red Eleven','Reiss','Religion','Ringspun','River Island','Rock & Revival','Rough Justice','RVCA','Selected','Sitka','Soulland','Stussy','Suit','Superdry','Supreme Being','Ted Baker','The Critical Slide Society','The Quiet Life','Tommy Hilfiger','Trainerspotter','Two Angle','Two Square','UCLA','Undefeated','Uniforms For The Dedicated','United Colors of Benetton','Vans','Versace','Villain','VITO','Voi Jeans','Volklore','WESC','Wolsey','Wood Wood','YMC'];
 
     var brand = '';
     var firstWord = description.split(' ')[0];
     var twoWords = firstWord + " " + description.split(' ')[1];
     var threeWords = twoWords + " " + description.split(' ')[2];
+    var fourWords = threeWords + " " + description.split(' ')[3];
 
     if (($.inArray(firstWord, brands))!=-1){
       brand = firstWord;
@@ -132,6 +135,12 @@ function getTelevisionOffers(){
     if (($.inArray(threeWords, brands))!=-1){
       brand = threeWords;
     }
+     if (($.inArray(fourWords, brands))!=-1){
+      brand = fourWords;
+    }
+
+    brand = brand.toLowerCase();
+
     // if (brand == ''){
     //   if (($.inArray(description.split(' ')[0]) + " " + description.split(' ')[1], brands))!=-1){
     //   brand = description.split(' '[0])+ " " + description.split(' ')[1];
@@ -167,7 +176,7 @@ function getTelevisionOffers(){
      tvOffer.pricing = pricing;
     // tvOffer.description = description;
     // //tvOffer.last_updated = new Date();
-    // tvOffer.isValid = true;
+     tvOffer.isValid = true;
     // }
       return tvOffer;
   });
@@ -182,18 +191,19 @@ var processPage = function() {
             // if (isNaN(parseInt(argosTelevisions[i].pricing.original))){
             //   continue;
             // }
-            //var televisionString = JSON.stringify(argosTelevisions[i]);
-            //fs.write('./Argos-television.txt', televisionString + "\n", 'a');
+            var televisionString = JSON.stringify(argosTelevisions[i]);
+            fs.write('./asos-shirt.txt', televisionString + "\n", 'a');
             utils.dump(argosTelevisions[i]);
            }
         }
+        this.echo(argosTelevisions.length);
     }else{
       this.echo('no offers');
     }
     this.exit();
 };
 
-casper.start("http://www.asos.com/Men/Sale/Jackets-Coats/Cat/pgecategory.aspx?cid=2112", function() {
+casper.start("http://www.asos.com/Men/Sale/Shirts/Cat/pgecategory.aspx?cid=3136&r=2#parentID=-1&pge=0&pgeSize=204&sort=-1", function() {
     // http://www.asos.com/Men/Sale/Jeans/Cat/pgecategory.aspx?cid=5230 jeans
     // http://www.asos.com/Men/Sale/Jumpers-Cardigans/Cat/pgecategory.aspx?cid=3137
 });

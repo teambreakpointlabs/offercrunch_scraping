@@ -19,8 +19,8 @@ function getShoeOffers(){
     var productUrl, imageUrl, originalPrice, offerPrice, savings, screenSize, properties, brand, pctSavings = "";
     var retailer = 'asos';
     var category = 'fashion';
-    var productType = 'shoe';
-    var gender = 'men';
+    var productType = 'top';
+    var gender = 'women';
     var description = '';
     var urlDesc = '';
     var encodedProductUrl = '';
@@ -117,8 +117,9 @@ function getShoeOffers(){
 
 
     // var brands = ['Crosshatch','!Solid','A Question Of','American Apparel','Anerkjendt','Antony Morato','ASOS','Barbour','Bellfield','Ben Sherman','Blood Brother','Brave Soul','Carhartt','Cheap Monday','D-Struct','Ralph Lauren','Deus Ex Machina','Diesel','DKNY','DZ','Esprit','Farah Vintage','Firetrap','Fred Perry','Fred Perry Laurel Wreath','French Connection','G-Star','Gant Rugger','Henleys','Hilfiger Denim','Jack & Jones','Jack Wills','Joyrich','Kulte','Le Coq Sportif','Lacoste','Levis','Libertine Libertine','Love Moschino','Lyle & Scott','Merc','Minimum','Timberland','Native Youth','New Look','Nike','Nudie Jeans','Penfield','Pepe','Ralph Lauren','Paul Smith','Pull&Bear','Quiksilver','Reclaimed','Reiss','Religion','Ringspun','River Island','Rock & Revival','Selected','Soulland','Superdry','Supreme Being','Ted Baker','The Kooples Sport','Tommy Hilfiger','Unconditional','Uniforms For The Dedicated','United Colors of Benetton','Vacant','Vans','VITO','Voi Jeans','Wolsey','Wood Wood','YMC'];
+    //var brands = ['ALDO','Ash','ASOS','B Store','Barbour','BCBGeneration','Be&D','Bertie','Birkenstock','Black Secret','Blink','Bobbies','Boo Roo','Bronx','Call it Spring','Calvin Klein','Carvela','Caterpillar','Cheap Monday','Chinese Laundry','Chocolate Schubar','Converse','Deux Souliers','DKNY','Dr Martens','Dune','Elizabeth and James','Emu','F-Troupe','Faith','Fred Perry','French Connection','French Sole','Frye','Ganni','Gola','Golddigga','Guess','H By Hudson','Havaianas','House of Harlow','Hunter','Ipanema','Jack Wills','Jean Michel Cazabat','Juju','K-Swiss','Karen Millen','KELSI DAGGER','KG Kurt Geiger','Kiboots','Lacoste','Le Coq Sportif','London Rebel','Love From Australia','Love Moschino','Luxury Rebel','Mango','Marc By Marc Jacobs','Markus Lupfer','Mel By Melissa','Melissa','Messeca','Miista','Minimarket','Miss KG','Miss Trish','Monki','Moon Boot','New Balance','New Kid','New Look','Nike','Oasis','Onitsuka Tiger','Palladium','Park Lane','Pieces','Pollini','Pony','Pour La Victoire','Protest','Pull&Bear','Puma','Ravel','Report Signature','River Island','Roxy','Rubber Duck','Sam Edelman','Chloe','Senso','Seychelles','Shellys London','Shoe the Bear','Sol Sana','Sole Society','Sophia Kokosalaki','Sorel','Steve Madden','Sugarfree Shoes','Superga','Supra','Swear','Swedish Hasbeens','Ted Baker','Timberland','Timeless','Toms','Truffle','UGG','Underground','Vagabond','Vans','Vila','Vivienne Westwood','Whistles','Wolverine','Won Hundred','Wood Wood','YMC','Youth Rise Up','Zigi'];
+    var brands = ['18 And East','2nd Day','7 For All Mankind','71 Stanton','A Question Of','A Wear','Adidas','Alice & You','American Apparel','American Vintage','Amplified','Antipodium','AQ AQ','Aqua','Arrogant Cat','Aryn K','Ashish','ASOS','ASOS Africa','ASOS Curve','ASOS Maternity','ASOS Petite','ASOS White','AX Paris','B Side By Wale','B+AB','b.Young','BA&SH','Back By Ann Sofie Back','Band of Gypsies','Baum Und Pferdgarten','Bellfield','Beloved','Bitching & Junkfood','Black Secret','Bolzoni & Walsh','Boulee','Boutique by Jaeger','BOY London','Brashy Couture','Brat & Suzie','Brave Soul','By Zoe','BZR','CAPTURE By Hollywood Made','Carhartt','Carmakoma','Chalayan Grey Line','Cheap Monday','Chinti and Parker','Club L','Colorblock','Costa Blanca','Criminal Damage','Current/Elliott','d.RA','Daisy Street','Darling','Denham','Denim & Supply by Ralph Lauren','Diesel','Dimepiece','Dress Gallery','Earth Couture','Edit','Eleven Paris','ELLESSE','Elliot Atkinson','Emma Cook','Esprit','Essentiel Antwerp','Evil Twin','Finders Keepers','For Love And Lemons','Freak of Nature','Free People','French Connection','G-Star','Ganni','Gestuz','Girl. by Band of Outsiders','Glamorous','Glamorous Petite','Glamorous Tall','Goldie','Goodie Two Sleeves','HOUSE of HACKNEY','Hilfiger Denim','House of Holland','Illustrated People','Influence','Insight','Iro','Isabella Oliver','Jack Wills','James Perse','Jarlo','JDY','JNBY','Joes Jeans','Jovonna','Jovonnista','Joyrich','Joyrich','Joystick Junkies','Juicy Couture','Junarose','Junk Food','Just Female','Karen Millen','Kate Thomas','Katie Judith','Kill City','Kiss The Sky','Lacoste','Lacoste Live','Lashes of London','Lavish Alice','Lazy Oaf','Les Prairies de Paris','Levis','Lipsy','Liquorish','Little Mistress','Little White Lies','LNA','Louise Amstrup','Love','Love & Liberty','Love Moschino','Love Zooey','Lovestruck','Lucabella','Lulu & Co','Lydia Bright','Maison Scotch','Mama.licious','Mango','Markus Lupfer','Max C London','Meghan Fabulous','MiH Jeans','Mina','Minimum','Minkpink','Monki','Motel','Mother of Pearl','Mr Gugu & Miss Go','Needle & Thread','Neon Rose','New Look','New Look Inspire','New Look Maternity','New Look Petite','New Look Tall','Nike','Noisy May','Oasis','Obey','Oh My Love','Olivia Rubin','One Teaspoon','OnePiece','Only','Ostwald Helgason','Other UK','Paradis London','Paul & Joe Sister','Paul by Paul Smith','Pencey','Pencey Standard','Penfield','People Tree','Pepe Jeans','Peter Jensen','Pieces','Pippa Lynn','Poor Boy','Pop Boutique','POP CPH','Poppy Lux','Pull&Bear','Puma','Quontum','Rag & Bone/JEAN','Rare','Reclaimed','Religion','River Island','Roxy','RVCA','Sass & Bide','Sauce','See by Chloe','See U Soon','Selected','Selfish By Forever Unique','Sessun','Shackled','Sick Girl','Skargorn','Somedays','Sonia by Sonia Rykiel','Sophia Kokosalaki','South Parade','Spijkers en Spijkers','Splendid','Storm and Marie','Stussy','Sugarhill Boutique','Taller Than Your Average','Ted Baker','Textile Federation','The Furies','The Kooples Sport','The Style','The WhitePepper','Three Floor','TO LOVE KUVAA','Tokyo Laundry','Traffic People','True Decadence','True Decadence Petite','Twenty8Twelve','Twist & Tango','Twisted Muse','UCLA','Ukulele','Vero Moda','Vero Moda Very','Vila','Voodoo Girl','Wackerhaus','Wal G','Warehouse','Whistles','White Chocoolate','Whitney Eve','Wildfox','Wildfox White Label','Winter Kate','Wood Wood','Worn By','Y.A.S','YMC','Your Eyes Lie','Yumi','Zoe Karssen'];
 
-    var brands = ['Adidas Originals','ALDO','Anthony Miles','Antoine and Stanley','ASOS','Barbour','Base London','Beck & Hersey','Bellfield','Ben Sherman','Bobbies','Boxfresh','Buttero','CAT','Converse','Creative Recreation','Crosshatch','Diesel','Dolce & Gabbana','Dune','Feud','Firetrap','Base','Frank Wright','Fred Perry','Gola','Gourmet','Grenson','Hudson','Homeys','Hugo Boss','Hummel','Hush Puppies','Hype','Jack & Jones','Jeffery West','Kurt Geiger','Lacoste','Le Coq Sportif','Loake','Marc Jacobs','New Balance','New Look','Nike','Onitsuka','Tiger','Paul Smith','Ralph Lauren','Pony','Pull&Bear','Puma','Quiksilver','Reiss','Religion','River Island','Rock & Revival','Rokin','Rolando Sturlini','Selected','Shoe the Bear','Skive','Soulland','Supra','Ted Baker','The North Face','Timberland','Trickers','Underground','Vans','Vivienne Westwood','XTI','YMC'];
 
     var brand = '';
     var firstWord = description.split(' ')[0];
@@ -133,6 +134,11 @@ function getShoeOffers(){
     }
     if (($.inArray(threeWords, brands))!=-1){
       brand = threeWords;
+    }
+
+    //ralph lauren not being picked up
+    if (description.match('Ralph Lauren')){
+      brand = 'Ralph Lauren';
     }
 
     brand = brand.toLowerCase();
@@ -171,7 +177,7 @@ var processPage = function() {
             //   continue;
             // }
             var shoeString = JSON.stringify(asosMensShoes[i]);
-           // fs.write('./asos-shoe.txt', shoeString + "\n", 'a');
+            fs.write('./asos-top.txt', shoeString + "\n", 'a');
             utils.dump(asosMensShoes[i]);
            }
         }
@@ -182,8 +188,7 @@ var processPage = function() {
     this.exit();
 };
 
-casper.start("http://www.asos.com/Men/Sale/Shoes-Trainers/Cat/pgecategory.aspx?cid=1935&r=2#parentID=-1&pge=0&pgeSize=204&sort=-1", function() {
-   
+casper.start("http://www.asos.com/Women/Sale/Tops/Cat/pgecategory.aspx?cid=4167&r=2#parentID=-1&pge=0&pgeSize=204&sort=-1", function() {
    // http://www.asos.com/Men/Sale/Jackets-Coats/Cat/pgecategory.aspx?cid=2112
     // http://www.asos.com/Men/Sale/Jeans/Cat/pgecategory.aspx?cid=5230 jeans
     // http://www.asos.com/Men/Sale/Jumpers-Cardigans/Cat/pgecategory.aspx?cid=3137

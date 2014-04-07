@@ -174,13 +174,14 @@ var processPage = function() {
             utils.dump(asosMensShoes[i]);
            }
         }
+        this.echo(asosMensShoes.length);
     }else{
       this.echo('no offers');
     }
     this.exit();
 };
 
-casper.start("http://www.asos.com/Women/Sale/Shoes/Cat/pgecategory.aspx?cid=1931", function() {
+casper.start("http://www.asos.com/Women/Sale/Shoes/Cat/pgecategory.aspx?cid=1931&r=2#parentID=-1&pge=0&pgeSize=204&sort=-1", function() {
    // http://www.asos.com/Men/Sale/Jackets-Coats/Cat/pgecategory.aspx?cid=2112
     // http://www.asos.com/Men/Sale/Jeans/Cat/pgecategory.aspx?cid=5230 jeans
     // http://www.asos.com/Men/Sale/Jumpers-Cardigans/Cat/pgecategory.aspx?cid=3137
