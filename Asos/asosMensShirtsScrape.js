@@ -139,6 +139,10 @@ function getTelevisionOffers(){
       brand = fourWords;
     }
 
+    if (description.match('Ralph Lauren')){
+      brand = 'Ralph Lauren';
+    }
+
     brand = brand.toLowerCase();
 
     // if (brand == ''){

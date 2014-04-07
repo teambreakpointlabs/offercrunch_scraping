@@ -134,6 +134,10 @@ function getShoeOffers(){
       brand = threeWords;
     }
 
+    if (description.match('Kurt Geiger')){
+      brand = 'Kurt Geiger';
+    }
+
     brand = brand.toLowerCase();
 
     var url = {};
