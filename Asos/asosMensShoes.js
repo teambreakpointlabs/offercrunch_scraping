@@ -135,6 +135,10 @@ function getShoeOffers(){
       brand = threeWords;
     }
 
+    if (description.match('Paul Smith')){
+      brand = 'Paul Smith';
+    }
+
     brand = brand.toLowerCase();
 
     var url = {};
@@ -145,8 +149,16 @@ function getShoeOffers(){
      pricing.original = parseFloat(originalPrice);
      pricing.offer = parseFloat(offerPrice);
      var savings = parseFloat(originalPrice) - parseFloat(offerPrice);
-     pricing.savings = Math.round(savings * 100)/100;
-     pricing.pctSavings = parseInt(savings/parseFloat(originalPrice) * 100);
+     savings = Math.round(savings * 100)/100;
+     pricing.savings = savings;
+     var percentageSaved = parseInt(savings/parseFloat(originalPrice) * 100);
+     pricing.pctSavings = percentageSaved;
+     var savingsString = '' + savings;
+     if (savingsString!='NaN'){
+      urlDesc = urlDesc + "-" + percentageSaved + "-percent-off-save-"+savingsString+"-pounds";
+     }else{
+      return {};
+     }
      shoeOffer.url = url;
      shoeOffer.retailer = retailer;
      shoeOffer.type = productType;
@@ -157,6 +169,7 @@ function getShoeOffers(){
      shoeOffer.gender = gender;
      shoeOffer.pricing = pricing;
      shoeOffer.isValid = true;
+
     return shoeOffer;
   });
   return shoeOffers;
@@ -171,7 +184,7 @@ var processPage = function() {
             //   continue;
             // }
             var shoeString = JSON.stringify(asosMensShoes[i]);
-           // fs.write('./asos-shoe.txt', shoeString + "\n", 'a');
+            fs.write('./asos-shoe.txt', shoeString + "\n", 'a');
             utils.dump(asosMensShoes[i]);
            }
         }
@@ -182,7 +195,7 @@ var processPage = function() {
     this.exit();
 };
 
-casper.start("http://www.asos.com/Men/Sale/Shoes-Trainers/Cat/pgecategory.aspx?cid=1935&r=2#parentID=-1&pge=0&pgeSize=204&sort=-1", function() {
+casper.start("http://www.asos.com/Men/Sale/Shoes-Trainers/Cat/pgecategory.aspx?cid=1935&r=2#parentID=-1&pge=0&pgeSize=500&sort=2", function() {
    
    // http://www.asos.com/Men/Sale/Jackets-Coats/Cat/pgecategory.aspx?cid=2112
     // http://www.asos.com/Men/Sale/Jeans/Cat/pgecategory.aspx?cid=5230 jeans

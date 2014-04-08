@@ -151,8 +151,16 @@ function getShoeOffers(){
      pricing.original = parseFloat(originalPrice);
      pricing.offer = parseFloat(offerPrice);
      var savings = parseFloat(originalPrice) - parseFloat(offerPrice);
-     pricing.savings = Math.round(savings * 100)/100;
-     pricing.pctSavings = parseInt(savings/parseFloat(originalPrice) * 100);
+     savings = Math.round(savings * 100)/100;
+     pricing.savings = savings;
+     var percentageSaved = parseInt(savings/parseFloat(originalPrice) * 100);
+     pricing.pctSavings = percentageSaved;
+     var savingsString = '' + savings;
+     if (savingsString!='NaN'){
+      urlDesc = urlDesc + "-" + percentageSaved + "-percent-off-save-"+savingsString+"-pounds";
+     }else{
+      return {};
+     }
      shoeOffer.url = url;
      shoeOffer.retailer = retailer;
      shoeOffer.type = productType;
@@ -188,7 +196,7 @@ var processPage = function() {
     this.exit();
 };
 
-casper.start("http://www.asos.com/Women/Sale/Tops/Cat/pgecategory.aspx?cid=4167&r=2#parentID=-1&pge=0&pgeSize=204&sort=-1", function() {
+casper.start("http://www.asos.com/Women/Sale/Tops/Cat/pgecategory.aspx?cid=4167&r=2#parentID=-1&pge=0&pgeSize=500&sort=-1", function() {
    // http://www.asos.com/Men/Sale/Jackets-Coats/Cat/pgecategory.aspx?cid=2112
     // http://www.asos.com/Men/Sale/Jeans/Cat/pgecategory.aspx?cid=5230 jeans
     // http://www.asos.com/Men/Sale/Jumpers-Cardigans/Cat/pgecategory.aspx?cid=3137
