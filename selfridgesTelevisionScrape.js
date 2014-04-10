@@ -248,7 +248,7 @@ var processPage = function() {
     //});
 //};
 
-casper.start("http://www.selfridges.com/en/Home-Tech/Categories/Shop-Tech/Televisions/All-televisions/?ic=19860&llc=sn&template=3Across", function() {
+casper.start("http://www.selfridges.com/en/Home-Tech/Categories/Shop-Tech/Televisions/?llc=dn", function() {
  
 });
 
