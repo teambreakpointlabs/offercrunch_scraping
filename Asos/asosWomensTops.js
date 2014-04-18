@@ -32,7 +32,8 @@ function getShoeOffers(){
       productUrl = "http://www.asos.com"+productUrl;
     }
     if(($(shoe).find('a.desc').text())!=null){
-      description = $(shoe).find('a.desc').text();  
+      description = $(shoe).find('a.desc').text();
+      description = description.replace(".","");
     }
     
     if(($(shoe).find('img').attr('src'))!=null){
@@ -155,7 +156,9 @@ function getShoeOffers(){
      pricing.savings = savings;
      var percentageSaved = parseInt(savings/parseFloat(originalPrice) * 100);
      pricing.pctSavings = percentageSaved;
-     var savingsString = '' + savings;
+     var savingsString = savings.toFixed(2);
+     savingsString = savingsString.replace(".","-");
+
      if (savingsString!='NaN'){
       urlDesc = urlDesc + "-" + percentageSaved + "-percent-off-save-"+savingsString+"-pounds";
      }else{

@@ -12,10 +12,9 @@ casperjs currysTabletScrape.js
 casperjs currysCameraScrape.js
 casperjs currysTelevisionLargeScrape.js
 casperjs currysTelevisionSmallScrape.js
-casperjs directTvsScrape.js
+casperjs ebuyerTelevisionScrape.js
 casperjs jessopsCameraScrape.js
 casperjs jlewis_scrape.js
-casperjs laptopsDirectLaptopScrape.js
 casperjs littlewoodsCameraScrape.js
 casperjs littlewoodsLaptopScrape.js
 casperjs littlewoodsTabletScrape.js
