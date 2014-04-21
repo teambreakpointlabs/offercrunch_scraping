@@ -13,6 +13,7 @@ casperjs currysCameraScrape.js
 casperjs currysTelevisionLargeScrape.js
 casperjs currysTelevisionSmallScrape.js
 casperjs ebuyerTelevisionScrape.js
+casperjs ebuyerLaptopScrape.js
 casperjs jessopsCameraScrape.js
 casperjs jlewis_scrape.js
 casperjs littlewoodsCameraScrape.js
