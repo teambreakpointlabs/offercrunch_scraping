@@ -20,6 +20,8 @@ casperjs littlewoodsCameraScrape.js
 casperjs littlewoodsLaptopScrape.js
 casperjs littlewoodsTabletScrape.js
 casperjs littlewoodsTelevisionScrape.js
+casperjs prcDirectTelevisionScrape.js
 casperjs selfridgesTelevisionScrape.js
+casperjs tescoTelevisionScrape.js
  
 echo '--- finished scraping ---'

@@ -13,7 +13,7 @@ var terminate = function() {
 };
 
 function getTelevisionOffers(){
-  var tvOfferSections = $('li.item');
+  var tvOfferSections = $('.item');
 
   var tvOffers = Array.prototype.map.call(tvOfferSections, function(tv){
      var tvOffer = {};
@@ -35,8 +35,8 @@ function getTelevisionOffers(){
        var encodedProductUrl = "";
        var skimlinksUrl = "";
 
-      if(($(tv).text())!=null){
-        productUrl = $(tv).text();
+      if(($(tv).find('a.productImage').text())!=null){
+        productUrl = $(tv).find('a.productImage').text();
       }
 
        
@@ -253,7 +253,7 @@ var processPage = function() {
     //});
 //};
 
-casper.start("http://www.tvandvideodirect.co.uk/television/led-tv.html?limit=10&mode=list", function() {
+casper.start("http://www.tvandvideodirect.co.uk/television.html?cat=11&limit=all", function() {
  
 });
 
