@@ -27,8 +27,7 @@ curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/samsung' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/dell' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/apple' http://api.prerender.io/recache
-curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/
-asus' http://api.prerender.io/recache
+curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/asus' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/packard-bell' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/advent' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/fujitsu' http://api.prerender.io/recache
@@ -58,3 +57,7 @@ curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/camera/canon' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/camera/olympus' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/camera/ricoh' http://api.prerender.io/recache
+
+
+
+curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/tablet/nook/nook-hd-16gb-tablet-snow' http://api.prerender.io/recache

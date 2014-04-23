@@ -21,7 +21,6 @@ for (var i=0;i<cameraBrands.length;i++){
 	writeToFile(fileName,"\n    <priority>0.8</priority>");
 	writeToFile(fileName,'\n  </url>');
 }
-writeToFile(fileName,"\n</urlset>");
 
 	// MongoClient.connect('mongodb://admin:af!9876@oceanic.mongohq.com:10041/app22752353', function(err, db) {
 
