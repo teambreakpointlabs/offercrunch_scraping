@@ -10,5 +10,8 @@ rm jessops*.txt
 rm 'john lewis-television.txt'
 rm littlewoods*.txt
 rm selfridges*.txt
+rm electrical123-television.txt
+rm "prc direct-television.txt"
+rm tesco-television.txt
 
 echo '--- finished removing files ---'

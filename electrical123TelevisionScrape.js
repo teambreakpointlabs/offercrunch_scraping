@@ -81,6 +81,7 @@ function getTelevisionOffers(){
 
       if(($(tv).find('div.productListItemImage').find('img').attr('src'))!=null){
     		imageUrl = $(tv).find('div.productListItemImage').find('img').attr('src');
+        imageUrl = imageUrl.replace("mini","detail");
       }
       if(($(tv).find('div.productListNormalPrice').find('strong').text())!=null){
         originalPrice = $(tv).find('div.productListNormalPrice').find('strong').text();
@@ -187,7 +188,7 @@ var processPage = function() {
               var televisionString = JSON.stringify(currysTelevisions[i]);
              //
 
-              fs.write('./electrical123-television.text', televisionString + "\n", 'a');
+              fs.write('./electrical123-television.txt', televisionString + "\n", 'a');
              // utils.dump(currysTelevisions);
              }
           }
