@@ -22,5 +22,9 @@ node ./insertScript.js littlewoods-television.txt
 node ./insertScript.js 'prc direct-television.txt'
 node ./insertScript.js selfridges-television.txt
 node ./insertScript.js tesco-television.txt
+node ./insertScript.js zavvi-laptop.txt
+node ./insertScript.js medion-laptop.txt
+node ./insertScript.js 'sonic direct-television.txt'
+node ./insertScript.js 'hughes direct-television.txt'
 
 echo '----Finished insert script-----'

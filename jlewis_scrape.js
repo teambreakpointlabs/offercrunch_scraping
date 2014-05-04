@@ -192,11 +192,11 @@ var processPage = function() {
       
        var tvString = JSON.stringify(johnlewisTelevisions[i]);
        this.echo(tvString);
-       fs.write('./john lewis-television.txt', tvString + "\n", 'a');
+       //fs.write('./john lewis-television.txt', tvString + "\n", 'a');
     
     }
       }
-      //this.echo(johnlewisTelevisions.length);
+      this.echo(johnlewisTelevisions.length);
  
 
 
@@ -260,8 +260,8 @@ var processPage = function() {
     //});
 //};
 
-casper.start("http://www.johnlewis.com/electricals/televisions/tv-special-offers/c800001149", function() {
- 
+casper.start("http://www.johnlewis.com/electricals/televisions/all-tvs/c800005013?changePageSize=increase", function() {
+ //http://www.johnlewis.com/electricals/televisions/tv-special-offers/c800001149
 });
 
 

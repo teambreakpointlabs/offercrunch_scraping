@@ -23,6 +23,9 @@ casperjs littlewoodsTelevisionScrape.js
 casperjs prcDirectTelevisionScrape.js
 casperjs selfridgesTelevisionScrape.js
 casperjs tescoTelevisionScrape.js
-casperjs electrical123TelevisionScrape.js
+casperjs medionLaptopScrape.js
+casperjs zavviLaptopScrape.js
+casperjs sonicDirectTelevisionScrape.js
+casperjs hughesDirectTelevisionScrape.js
  
 echo '--- finished scraping ---'
