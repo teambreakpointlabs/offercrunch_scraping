@@ -159,7 +159,7 @@ var processPage = function() {
         utils.dump(littlewoodsTablets);
            littlewoodsTablets.forEach(function(x){
              if (x.type != undefined){
-               //utils.dump(x);
+               utils.dump(x);
                fs.write('./littlewoods-tablet.txt', JSON.stringify(x)  + "\n", 'a');
              }
           });

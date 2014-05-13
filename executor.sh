@@ -27,5 +27,6 @@ casperjs medionLaptopScrape.js
 casperjs zavviLaptopScrape.js
 casperjs sonicDirectTelevisionScrape.js
 casperjs hughesDirectTelevisionScrape.js
+casperjs electricalDiscountUKTelevisionScrape.js
  
 echo '--- finished scraping ---'

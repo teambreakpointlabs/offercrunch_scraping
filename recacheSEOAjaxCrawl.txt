@@ -43,18 +43,13 @@ curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/lg/lg-29ln470u-smart-29-led-tv' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/toshiba/toshiba-40l7355db-black-40inch-full-hd-smart-3d-led-tv-with-freeview-hd--wifi--4x-hdmi-and-2x-usb-portsview-product' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/toshiba/39l4353db-39-inch-full-hd-led-smart-tv-with-freeview-hd' http://api.prerender.io/recache
-
-
-
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/toshiba/40l6353db-40-inch-full-hd-freeview-hd-smart-slim-led-tv' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/toshiba/toshiba-39l2333db-black-39inch-full-hd-led-tv-with-integrated-freeview--2x-hdmi-and-1x-usb-portsview-product' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/philips/philips-42pfl3208t-42-inch-full-hd-freeview-hd-led-smart-tv' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/toshiba/toshiba-50l7355db-black-50inch-full-hd-smart-3d-led-tv-with-freeview-hd--wifi--4x-hdmi-and-2x-usb-portsview-product' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/sharp/lc32le351k-32-inch-full-hd-freeview-hd-led-smart-tv-white' http://api.prerender.io/recache
-
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/philips/philips-46pfl4208t-46-inch-full-hd-freeview-hd-led-smart-tv' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/philips/philips-42pfl4208t-42-inch-full-hd-freeview-hd-led-smart-tv' http://api.prerender.io/recache
-
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/philips/philips-46pfl3208t-46-inch-full-hd-freeview-hd-led-smart-tv' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/sharp/lc32le351e-32-inch-full-hd-freeview-hd-led-smart-tv-black' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/sharp/sharp-lc32ld145k-black-32inch-hd-ready-led-tv-with-built-in-freeview--usb-media-player--2x-hdmi-and-1x-usb-portview-product' http://api.prerender.io/recache
@@ -107,7 +102,7 @@ curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/camera/panasonic/lz30-lumix-16.1-megapixel-digital-camera-red' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/camera/panasonic/dmc-gx7keb-k-16-megapixel-compact-system-camera-with-14-42mm-lens-black' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/camera/panasonic/panasonic-lumix-dmc-sz3-advanced-compact-digital-camera-black' http://api.prerender.io/recache
-curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/camera/panasonic/gf6-14-42mm-lens-compact-system-camera	' http://api.prerender.io/recache
+curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/camera/panasonic/gf6-14-42mm-lens-compact-system-camera' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/camera/fujifilm/fujifilm-instax-mini-8-instant-camera-bundle-pink	' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/camera/fujifilm/fujifilm-finepix-xp70-waterproof-compact-digital-camera-yellow' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/camera/panasonic/panasonic-lumix-dmc-fz200-digital-bridge-camera' http://api.prerender.io/recache
@@ -164,7 +159,6 @@ curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/sony/sony-vaio-fit-e-svf1521g2ew-touchscreen-laptop--pentium-2117u--4gb--500gb--windows-8--15.5-displayview-product' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/sony/sony-vaio-fit-15-e-svf1521g2ew-15.5-touchscreen-laptop-white' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/sony/sony-vaio-fit-15-svf1521g2eb.cek-15.5-touchscreen-laptop' http://api.prerender.io/recache
-
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/sony/sony-vaio-fit-e-svf1521g2eb-touchscreen-laptop--pentium-2117u--4gb--500gb--windows-8--15.5-displayview-product' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/samsung/samsung-540u3c-laptop-offer-14-percent-off-save-99-00-pounds' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/samsung/samsung-xe303-chromebook-offer-10-percent-off-save-25-75-pounds' http://api.prerender.io/recache
@@ -199,10 +193,7 @@ curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/tablet/lenovo/a1000l-dual-core-processor%E2%84%A2-512mb-ram-8gb-hard-drive-wi-fi-7-inch-tablet-black-with-free-white-cover' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/tablet/samsung/galaxy-tab-3-8.0-dual-core%E2%84%A2-processor-1.5gb-ram-16gb-storage-wi-fi-8-inch-tablet-white' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/tablet/gemini/7007-dual-core%E2%84%A2-processor-512mb-ram-4gb-hard-drive-wifi-7-inch-touch-screen-tablet-white-(rear)' http://api.prerender.io/recache
-
-
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/tablet/samsung/galaxy-tab-3-8.0-dual-core-1.5gb-ram-16gb-storage-wifi-8in-tablet-black' http://api.prerender.io/recache
-
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/tablet/samsung/samsung-galaxy-tab-3-8-wifi-tablet-16-gb--white' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/tablet/nook/hd-32gb-9-inch-tablet-slate-black' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/tablet/nook/hd-16gb-7-inch-tablet-smoke-grey' http://api.prerender.io/recache
@@ -224,12 +215,12 @@ curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/lenovo/yoga-2-11-intel%C2%AE-pentium%C2%AE-quad-core-processor-4gb-ram-500gb-hard-drive-wi-fi-11.6-inch-touch-screen-convertible-laptop-black' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/toshiba/w30dt-100-amd-a4-processor-4gb-ram-500gb-hard-drive-wi-fi-13.3-inch-touchscreen-laptop-silver' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/sony/sony-vaio-duo-svd1321m2eb-touchscreen-ultrabook-convertible--core-i5-4200u--4gb--128gb-ssd--windows-8-64--13.3-display--includes-digitizer-stylusview-product' http://api.prerender.io/recache
-curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/acer/v5-122p-amd-a6-processor-4gb-ram-500gb-hard-drive-11.6-inch-touch-screen-laptop	' http://api.prerender.io/recache
+curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/acer/v5-122p-amd-a6-processor-4gb-ram-500gb-hard-drive-11.6-inch-touch-screen-laptop' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/panasonic/panasonic-txl47et60b-silver-47-inch-full-hd-smart-3d-led-tv-with-built-in-freeview-hd--wifi--3x-hdmi-portsview-product' http://api.prerender.io/recache
-curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/sandstrom/sandstrom-s32hedw13-32-led-tv-with-built-in-dvd-player	' http://api.prerender.io/recache
+curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/sandstrom/sandstrom-s32hedw13-32-led-tv-with-built-in-dvd-player' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/samsung/samsung-ue40f6400-black-and-silver-40inch-full-hd-smart-3d-led-tv-with-wifi--freeview-hd--4x-hdmi-and-3x-usb-portsview-product' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/samsung/samsung-lt22c300-22-led-tv' http://api.prerender.io/recache
-curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/logik/logik-l32hed13-32-led-tv-with-built-in-dvd-player	' http://api.prerender.io/recache
+curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/logik/logik-l32hed13-32-led-tv-with-built-in-dvd-player' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/logik/logik-l26hed13-26-led-tv-with-built-in-dvd-player' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/logik/logik-l24fe13-24-led-tv' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/samsung/ue46f6320-46-inch-full-hd-freeview-hd-led-3d-smart-tv' http://api.prerender.io/recache
@@ -374,7 +365,6 @@ curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/sharp/39-full-hd-3d-led-tv-with-freeview-hd--active-motion-200--2d-or-3d-offer-20-percent-off-save-80-05-pounds' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/hp/hp-pavilion-amd-a6-15.6-inch-4gb-750gb-laptop' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/hp/hp-split-13-m110sa-touchscreen-detachable-laptop-with-beats-audio--core-i3-4010y---4gb--500gb-+-64gb-ssd--windows-8-64--13.3-displayview-product' http://api.prerender.io/recache
-
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/hp/exdisplay-hp-250-g1-laptop-offer-8-percent-off-save-23-38-pounds' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/hp/pavilion-15-n245sa-intel%C2%AE-core%E2%84%A2-i5-processor-6gb-ram-750gb-hard-drive-wi-fi-15.6-inch-laptop-silver-black' http://api.prerender.io/recache
 curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/hp/pavilion-15-n246sa-intel%C2%AE-core%E2%84%A2-i5-processor-6gb-ram-750gb-hard-drive-wi-fi-15.6-inch-laptop-red' http://api.prerender.io/recache

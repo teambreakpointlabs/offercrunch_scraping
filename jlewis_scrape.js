@@ -192,7 +192,7 @@ var processPage = function() {
       
        var tvString = JSON.stringify(johnlewisTelevisions[i]);
        this.echo(tvString);
-       //fs.write('./john lewis-television.txt', tvString + "\n", 'a');
+       fs.write('./john lewis-television.txt', tvString + "\n", 'a');
     
     }
       }

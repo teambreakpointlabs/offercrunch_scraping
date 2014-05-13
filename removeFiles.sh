@@ -16,5 +16,6 @@ rm "prc direct-television.txt"
 rm "hughes direct-television.txt"
 rm "sonic direct-television.txt"
 rm tesco-television.txt
+rm "electrical discount uk-television.txt"
 
 echo '--- finished removing files ---'

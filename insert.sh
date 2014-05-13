@@ -26,5 +26,6 @@ node ./insertScript.js zavvi-laptop.txt
 node ./insertScript.js medion-laptop.txt
 node ./insertScript.js 'sonic direct-television.txt'
 node ./insertScript.js 'hughes direct-television.txt'
+node ./insertScript.js 'electrical discount uk-television.txt'
 
 echo '----Finished insert script-----'
