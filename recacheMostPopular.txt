@@ -1,0 +1,9 @@
+curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/sony/sony-vaio-sve1513w-15.6-inch-750gb-4gb-laptop-white' http://api.prerender.io/recache
+curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/hp/hp-pavilion-15-n221sa-15.6-inch-8gb-1tb-laptop-white' http://api.prerender.io/recache
+curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/sony/sony-bravia-kdl46w905-led-hd-1080p-3d-smart-tv' http://api.prerender.io/recache
+curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/toshiba/c55-1u3-intel®-celeron®-processor-4gb-ram-1tb-hard-drive-wi-fi-15.6-inch-laptop-with-free-laptop-bag-white' http://api.prerender.io/recache
+curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/toshiba/c55-1ue-intel%C2%AE-celeron%C2%AE-processor-4gb-ram-1tb-hard-drive-wi-fi-15.6-inch-laptop-with-free-laptop-bag-silver' http://api.prerender.io/recache
+curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/hitachi/hitachi-hxt12u-42-in-full-hd-1080p-fvhd-led-tv-+-smart-apps' http://api.prerender.io/recache
+curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/hp/hp-pavilion-15-n221sa-15.6-inch-8gb-1tb-laptop-purple' http://api.prerender.io/recache
+curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/television/hitachi/hitachi-24in-hd-ready-fvhd-led-tv-dvd-combi-+-smart-apps' http://api.prerender.io/recache
+curl -F prerenderToken='XjPlsCNXECHVU0gDX0RS' -F url='http://www.offercrunch.co.uk/offers/laptop/toshiba/toshiba-c50-15.6-inch-ci3-1tb-laptop' http://api.prerender.io/recache

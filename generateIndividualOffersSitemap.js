@@ -38,7 +38,7 @@ collection.find({isValid:true}).toArray(function(err,offers){
      	writeToFile(fileName,"\n    <loc>http://www.offercrunch.co.uk/offers/"+offers[i].type+"/"+offers[i].brand+"/"+offers[i].urlDesc+"</loc>");
      	writeToFile(fileName,"\n    <lastmod>"+new Date().toISOString()+"</lastmod>");
     	writeToFile(fileName,"\n    <changefreq>weekly</changefreq>");
-    	writeToFile(fileName,"\n    <priority>0.5</priority>");
+    	writeToFile(fileName,"\n    <priority>0.6</priority>");
     	writeToFile(fileName,'\n  </url>');
 	}
 }
